@@ -1,1 +1,1 @@
-[web+pwa://hello](web+pwa://hello)
+[web+pwakit://hello](web+pwa://hello)
