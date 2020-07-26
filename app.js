@@ -14,4 +14,10 @@ window.addEventListener('offline', function () {
 
 console.log(document.location.search)
 
-navigator.registerProtocolHandler("web+pwa", "https://pwa-starter-kit.vercel.app/?query=%s", "Protocol handler")
+
+if (window.matchMedia('(display-mode: standalone)').matches) {
+  console.log("This is running as standalone.");
+  navigator.registerProtocolHandler("web+pwa", "https://pwa-starter-kit.vercel.app/?query=%s", "Protocol handler")
+} else {
+  console.log("this is running in browser")
+}
