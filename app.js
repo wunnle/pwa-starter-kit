@@ -14,4 +14,4 @@ window.addEventListener('offline', function () {
 
 console.log(document.location.search)
 
-navigator.registerProtocolHandler("web+burger", "https://localhost:5000/?burger=%s", "Burger handler")
+navigator.registerProtocolHandler("web+pwa", "https://pwa-starter-kit.vercel.app/?query=%s", "Protocol handler")

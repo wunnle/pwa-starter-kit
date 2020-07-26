@@ -8,7 +8,7 @@
             "sizes": "512x512"
         }
     ],
-    "start_url": "http://localhost:5000/",
+    "start_url": "https://pwa-starter-kit.vercel.app/",
     "background_color": "#FFFFFF",
     "theme_color": "#FFFFFF",
     "display": "minimal-ui"
