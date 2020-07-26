@@ -1,0 +1,15 @@
+{
+    "short_name": "PWA starter kit",
+    "name": "Progressive Web Application Starter Kit",
+    "icons": [
+        {
+            "src": "assets/logo.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "http://localhost:5000/",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF",
+    "display": "minimal-ui"
+}
